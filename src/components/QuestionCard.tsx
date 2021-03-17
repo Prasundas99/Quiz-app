@@ -13,7 +13,10 @@ const QuestionCard: React.FC<Props>  = ({question , answer, callback , questionn
   
     return(
         <>
-        <h1>Hello</h1>
+        <p className="number">
+            Question: {questionno} / {totalQuestions}
+        </p>    
+        
         </>
     );
 };

@@ -5,7 +5,7 @@ function App() {
   const startTrivia = async () => {
 
   }
-  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const checkAnswer  = (e: React.MouseEvent<HTMLButtonElement>) => {
     
   }
 
