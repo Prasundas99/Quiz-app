@@ -1,4 +1,4 @@
-import { type } from 'node:os';
+
 import React from 'react';
 
 type Props = {
@@ -20,6 +20,4 @@ const QuestionCard: React.FC<Props>  = ({question , answer, callback , questionn
         </>
     );
 };
-
-
 export default QuestionCard;
